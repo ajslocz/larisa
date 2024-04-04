@@ -3,18 +3,19 @@
   import Sidebar from "./lib/Sidebar.svelte";
   import Navbar from "./lib/Navbar.svelte";
   import Footer from "./lib/Footer.svelte";
+  import Main from "./lib/Main.svelte";
 </script>
 
-<!-- <div class="wrapper">
+<div class="wrapper">
   <div class="left">
     <Sidebar />
   </div>
-  <div class="right"> -->
-<Navbar />
-<Footer />
-
-<!-- </div>
-</div> -->
+  <div class="right">
+    <Navbar />
+    <Main />
+    <Footer />
+  </div>
+</div>
 
 <style>
   .wrapper {
